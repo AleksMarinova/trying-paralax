@@ -1,0 +1,62 @@
+body {
+	height: 100vh;
+	background: #FFA44C;
+	margin: 0;
+	display: grid;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.container {
+	text-align: center;
+	padding: 8em 0;
+	height: 100vh;
+
+	 
+}
+
+h1 {
+	 	font-size: 5em;
+	 	margin: 0;
+	 	color: white;
+	 }
+
+ p {
+	 	font-size: 1.3em;
+	 	margin: 0;
+	 	color: white;
+	 }
+
+section {
+	text-align: center;
+	padding: 8em 0;
+	height: 100vh;
+}
+
+h2 {
+	font-size: 3em;
+	margin-top: 8em;
+}
+
+svg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+
+}
+
+.clouds {
+	animation: cloud-anim 10s alternate-reverse infinite linear;
+}
+
+@keyframes cloud-anim{
+	from {
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(-100px);
+	}
+}
+
+

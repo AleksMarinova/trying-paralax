@@ -1,6 +1,7 @@
 body {
 	height: 100vh;
-	background: #FFA44C;
+	background: /*#FFA44C*/ background-color: #fce043;
+    background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);;
 	margin: 0;
 	display: grid;
 	font-family: 'Roboto Condensed', sans-serif;
